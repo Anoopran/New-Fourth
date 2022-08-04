@@ -4,8 +4,8 @@
         var SAMPLEMC = "{!$MessageChannel.SampleChannel__c}";
         function handleClick() {
             const message = {
-                recordId: "Welcome to LMS",
-                recordData: { value: "some value" } 
+                recordId: "Welcome to Lightning World",
+                recordData: { value: "Howz the feeling" } 
             }
             sforce.one.publish(SAMPLEMC, message);
         }
